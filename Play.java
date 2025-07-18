@@ -86,5 +86,6 @@ DoubleSummaryStatistics sol = list.stream().mapToDouble(Employee::getSalary).sum
 
 list.stream().map(Employee::getName).forEach(System.out::println);
 
+list.stream().distinct().forEach(System.out::println);
 }
 }

@@ -10,8 +10,12 @@ Set<String> set = new HashSet<>();
 		List<String> list = items.stream()
 				.filter(p->!set.add(p)).collect(Collectors.toList());
 		
+
+		System.out.println("Hello im pradeep");
+		System.out.println("Hello Kumar");
 	}
 	
+
 	
 	
 }
